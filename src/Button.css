@@ -1,0 +1,27 @@
+.Button {
+    margin: 10px auto;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    width: 60%;
+    max-width: 500px;
+    border-radius:150px;
+    overflow: hidden!important;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    background: transparent!important;
+}
+
+.Button:hover{
+    width: 90%;
+    max-width: 800px;
+    color: #80ffd3 !important;
+    padding: 10px 10px;
+    border: 1px solid #80ffd3;
+    border-radius:150px;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
